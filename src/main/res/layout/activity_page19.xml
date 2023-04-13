@@ -4,54 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".page10">
+    tools:context=".page19">
 
     <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="1526dp"
-        android:layout_height="1748dp"
+        android:id="@+id/imageView23"
+        android:layout_width="842dp"
+        android:layout_height="1140dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/basement" />
+        app:layout_constraintVertical_bias="0.427"
+        app:srcCompat="@drawable/forestwalk" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textView24"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="204dp"
+        android:layout_marginBottom="240dp"
         android:background="#BF000000"
         android:fontFamily="@font/inria_sans_light"
-        android:text="YOU ARE CAPTURED"
-        android:textAlignment="center"
+        android:text="The woods nearby is still wet so you have to selectively choose the woods, it is dark but fortunately your phone have a flashlight so it is not a problem"
         android:textColor="#FFFFFF"
-        android:textSize="40sp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="#BF000000"
-        android:fontFamily="@font/inria_sans_light"
-        android:text="The hunter captured you infront of the door and you are going to be his next meal"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button_restart"
+        android:id="@+id/button_page20"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="204dp"
-        android:backgroundTint="#80000000"
-        android:text="TRY AGAIN"
+        android:layout_marginBottom="15dp"
+        android:background="#80000000"
+        android:text="Go search dry woods"
+        app:layout_constraintBottom_toTopOf="@+id/button_page23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_page23"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="107dp"
+        android:background="#80000000"
+        android:text="Go back to tent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
