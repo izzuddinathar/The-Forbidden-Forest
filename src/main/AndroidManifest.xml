@@ -12,7 +12,34 @@
         android:theme="@style/Theme.VisualNovelProject"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".page10"
+            android:exported="false" />
+        <activity
+            android:name=".page9"
+            android:exported="false" />
+        <activity
+            android:name=".page8"
+            android:exported="false" />
+        <activity
+            android:name=".page7"
+            android:exported="false" />
+        <activity
+            android:name=".page6"
+            android:exported="false" />
+        <activity
+            android:name=".page5"
+            android:exported="false" />
+        <activity
+            android:name=".page4"
+            android:exported="false" />
+        <activity
+            android:name=".page3"
+            android:exported="false" />
+        <activity
+            android:name=".page2"
+            android:exported="false" />
+        <activity
+            android:name=".page1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
