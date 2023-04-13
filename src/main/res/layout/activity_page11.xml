@@ -4,26 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".page8">
+    tools:context=".page11">
 
     <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="1317dp"
-        android:layout_height="1407dp"
+        android:id="@+id/imageView14"
+        android:layout_width="902dp"
+        android:layout_height="1074dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/soup" />
+        app:srcCompat="@drawable/forestwalk" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView12"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="211dp"
+        android:layout_marginTop="204dp"
         android:background="#BF000000"
         android:fontFamily="@font/inria_sans_light"
-        android:text="YOU ARE POISONED"
+        android:text="YOU ARE ALIVE"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
@@ -32,18 +32,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView13"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="#BF000000"
         android:fontFamily="@font/inria_sans_light"
-        android:text="The soup has been contaminated by poison you should have seen it coming"
+        android:text="The hunter captured you infront of the door and you are going to be his next meal"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Button
         android:id="@+id/button_restart"

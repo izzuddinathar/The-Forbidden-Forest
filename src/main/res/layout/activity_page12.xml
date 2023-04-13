@@ -4,35 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".page5">
+    tools:context=".page12">
+
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="1233dp"
-        android:layout_height="1435dp"
+        android:id="@+id/imageView15"
+        android:layout_width="1211dp"
+        android:layout_height="1440dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cabin" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="160dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hunter" />
+        app:srcCompat="@drawable/forestwalking" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="240dp"
         android:background="#BF000000"
         android:fontFamily="@font/inria_sans_light"
-        android:text="What are you doing here?, it is going dark and its dangerous outside, come to my cabin for a night?"
+        android:text="As you continue walking, you see a note hanging onto the tree, what will you do?"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,23 +31,23 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button_page7"
+        android:id="@+id/button_page13"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
         android:background="#80000000"
-        android:text="Accept the offer"
-        app:layout_constraintBottom_toTopOf="@+id/button_page6"
+        android:text="Read the note"
+        app:layout_constraintBottom_toTopOf="@+id/button_page15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button_page6"
+        android:id="@+id/button_page15"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="107dp"
         android:background="#80000000"
-        android:text="Refuse the offer"
+        android:text="Keep walking"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

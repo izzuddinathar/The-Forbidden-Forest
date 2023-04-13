@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class page8 : AppCompatActivity() {
+class page11 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_page8)
+        setContentView(R.layout.activity_page11)
 
         val restart_button = findViewById<Button>(R.id.button_restart)
         restart_button.setOnClickListener {
