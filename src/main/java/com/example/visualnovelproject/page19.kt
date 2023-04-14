@@ -14,11 +14,13 @@ class page19 : AppCompatActivity() {
         page20_button.setOnClickListener {
             val Intent = Intent(this,page20::class.java)
             startActivity(Intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
         val page23_button = findViewById<Button>(R.id.button_page23)
         page23_button.setOnClickListener {
             val Intent = Intent(this,page23::class.java)
             startActivity(Intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
     }
 }
