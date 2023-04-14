@@ -17,6 +17,7 @@ class page2 : AppCompatActivity() {
             val Intent = Intent(this,page3::class.java)
                 .putExtra("name",input_name.text.toString())
             startActivity(Intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
     }
 }

@@ -14,6 +14,7 @@ class page24 : AppCompatActivity() {
         restart_button.setOnClickListener {
             val Intent = Intent(this,page1::class.java)
             startActivity(Intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
     }
 }

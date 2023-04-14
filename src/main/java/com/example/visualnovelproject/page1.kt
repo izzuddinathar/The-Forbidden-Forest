@@ -14,6 +14,7 @@ class page1 : AppCompatActivity() {
         enter_button.setOnClickListener {
             val Intent = Intent(this,page2::class.java)
             startActivity(Intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
     }
 }
