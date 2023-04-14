@@ -4,11 +4,23 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 
 class page7 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_page7)
+
+        val imageView = findViewById<ImageView>(R.id.imageView8)
+        imageView.animate().apply {
+            duration = 1000
+            rotationYBy(15f)
+        }.withEndAction {
+            imageView.animate().apply {
+                duration = 1000
+                rotationYBy(-15f)
+            }.start()
+        }
 
         val page8_button = findViewById<Button>(R.id.button_page8)
         page8_button.setOnClickListener {
