@@ -306,6 +306,24 @@
       ],
       "background": "bg_11",
       "model": ""
+    },
+    {
+      "page": 18,
+      "question": "The rain has stop, you notice that your hungry, you need to build outside stove that require some woods, what will you do?",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Gather some wood",
+          "pageNext": 19
+        },
+        {
+          "index": 1,
+          "name": "Sleep it off",
+          "pageNext": 23
+        }
+      ],
+      "background": "bg_12",
+      "model": ""
     }
 
   ]
