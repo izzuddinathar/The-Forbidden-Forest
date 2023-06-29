@@ -234,6 +234,24 @@
       ],
       "background": "bg_8",
       "model": ""
+    },
+    {
+      "page": 14,
+      "question": "YOU ARE ALIVE\nit seems that the mountain is occupied by skin walker",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Try Again?",
+          "pageNext": 1
+        },
+        {
+          "index": 1,
+          "name": "",
+          "pageNext": 1
+        }
+      ],
+      "background": "bg_9",
+      "model": ""
     }
 
   ]
