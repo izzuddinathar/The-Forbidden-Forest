@@ -144,6 +144,43 @@
       ],
       "background": "bg_5",
       "model": ""
+    },
+    {
+      "page": 9,
+      "question": "As you check the cabins room,  you stumble to a paper that says“%1$s! is the next prey”. wait that's my name i need to escape from this cabin",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Escape through the door",
+          "pageNext": 10
+        },
+        {
+          "index": 1,
+          "name": "Escape through the Window",
+          "pageNext": 11
+        }
+      ],
+      "background": "bg_3",
+      "model": ""
+    },
+    {
+      "page": 10,
+      "question": "YOU ARE CAPTURED\nThe hunter captured you infront of the door and you are going to be his next meal",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Try Again?",
+          "pageNext": 1
+        },
+        {
+          "index": 1,
+          "name": "",
+          "pageNext": 14
+        }
+      ],
+      "background": "bg_5",
+      "model": ""
     }
+
   ]
 }
