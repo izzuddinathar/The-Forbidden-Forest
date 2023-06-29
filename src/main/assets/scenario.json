@@ -288,6 +288,24 @@
       ],
       "background": "bg_12",
       "model": ""
+    },
+    {
+      "page": 17,
+      "question": "YOU ARE DEAD\nCause of death : Hypothermia\nyou failed to find a shelter on time",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Try Again?",
+          "pageNext": 1
+        },
+        {
+          "index": 1,
+          "name": "",
+          "pageNext": 1
+        }
+      ],
+      "background": "bg_11",
+      "model": ""
     }
 
   ]
