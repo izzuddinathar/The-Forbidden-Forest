@@ -216,6 +216,24 @@
       ],
       "background": "bg_7",
       "model": ""
+    },
+    {
+      "page": 13,
+      "question": "You take the note, it says “ DO NOT TRUST THE VOICE STAY INSIDE %1$s!“ , it rattle you a little bit, you are not that far enough to go back before the sunset",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Cancel your hiking and go back to home",
+          "pageNext": 14
+        },
+        {
+          "index": 1,
+          "name": "Keep on walking",
+          "pageNext": 15
+        }
+      ],
+      "background": "bg_8",
+      "model": ""
     }
 
   ]
