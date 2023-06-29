@@ -360,6 +360,24 @@
       ],
       "background": "bg_13",
       "model": ""
+    },
+    {
+      "page": 21,
+      "question": "The woods nearby is still wet so you have to selectively choose dry woods, it is dark and unfortunately your phone died, if you proceed further it will be danger",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Go search it, im hungry",
+          "pageNext": 22
+        },
+        {
+          "index": 1,
+          "name": "On a second thought, it is too dangerous",
+          "pageNext": 23
+        }
+      ],
+      "background": "bg_13",
+      "model": ""
     }
 
   ]
