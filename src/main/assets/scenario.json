@@ -324,6 +324,24 @@
       ],
       "background": "bg_12",
       "model": ""
+    },
+    {
+      "page": 19,
+      "question": "The woods nearby is still wet so you have to selectively choose the woods, it is dark but fortunately your phone have a flashlight so it is not a problem",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Go search dry woods",
+          "pageNext": 20
+        },
+        {
+          "index": 1,
+          "name": "",
+          "pageNext": 1
+        }
+      ],
+      "background": "bg_6",
+      "model": ""
     }
 
   ]
