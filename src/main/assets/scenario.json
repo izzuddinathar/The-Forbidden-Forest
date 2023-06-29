@@ -198,6 +198,24 @@
       ],
       "background": "bg_6",
       "model": ""
+    },
+    {
+      "page": 12,
+      "question": "As you continue walking, you see a note hanging onto the tree, what will you do?",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Read the note",
+          "pageNext": 13
+        },
+        {
+          "index": 1,
+          "name": "Keep Walking",
+          "pageNext": 15
+        }
+      ],
+      "background": "bg_7",
+      "model": ""
     }
 
   ]
