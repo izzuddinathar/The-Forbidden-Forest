@@ -108,6 +108,24 @@
       ],
       "background": "bg_2",
       "model": "model_1"
+    },
+    {
+      "page": 7,
+      "question": "“ I’m going to go outside to check the rabbit trap, there is some hot soup on the stove feel free to eat it, i’ll be going now”",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Eat the food",
+          "pageNext": 8
+        },
+        {
+          "index": 1,
+          "name": "Investigate the cabin",
+          "pageNext": 9
+        }
+      ],
+      "background": "bg_3",
+      "model": "model_1"
     }
   ]
 }
