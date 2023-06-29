@@ -90,6 +90,24 @@
       ],
       "background": "bg_2",
       "model": "model_1"
+    },
+    {
+      "page": 6,
+      "question": "Okay do what you wish but i must warn you that don't go around when there is no sun, see you around",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Okay, see you around",
+          "pageNext": 15
+        },
+        {
+          "index": 1,
+          "name": "",
+          "pageNext": 8
+        }
+      ],
+      "background": "bg_2",
+      "model": "model_1"
     }
   ]
 }
