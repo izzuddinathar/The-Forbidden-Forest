@@ -270,6 +270,24 @@
       ],
       "background": "bg_10",
       "model": ""
+    },
+    {
+      "page": 16,
+      "question": "You stuck in your tent and it will take long for the rain to ease up, you are bored needing to do something to burn time, what wil you do?",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Read a book",
+          "pageNext": 18
+        },
+        {
+          "index": 1,
+          "name": "Play your phone",
+          "pageNext": 81
+        }
+      ],
+      "background": "bg_12",
+      "model": ""
     }
 
   ]
