@@ -126,6 +126,24 @@
       ],
       "background": "bg_3",
       "model": "model_1"
+    },
+    {
+      "page": 8,
+      "question": "YOU ARE POISONED\nThe soup has been contaminated by poison you should have seen it coming",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Try Again?",
+          "pageNext": 1
+        },
+        {
+          "index": 1,
+          "name": "",
+          "pageNext": 11
+        }
+      ],
+      "background": "bg_5",
+      "model": ""
     }
   ]
 }
