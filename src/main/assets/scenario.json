@@ -378,6 +378,24 @@
       ],
       "background": "bg_13",
       "model": ""
+    },
+    {
+      "page": 22,
+      "question": "YOU ARE TRAPPED\nYou can’t see the trap laying around on the ground and you accidentally step to it",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Try Again?",
+          "pageNext": 1
+        },
+        {
+          "index": 1,
+          "name": "",
+          "pageNext": 1
+        }
+      ],
+      "background": "bg_14",
+      "model": ""
     }
 
   ]
