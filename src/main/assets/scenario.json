@@ -180,6 +180,24 @@
       ],
       "background": "bg_5",
       "model": ""
+    },
+    {
+      "page": 11,
+      "question": "YOU ARE ALIVE\nYou successfully escaped from the hunter and immediately exit the forest",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Try Again?",
+          "pageNext": 1
+        },
+        {
+          "index": 1,
+          "name": "",
+          "pageNext": 13
+        }
+      ],
+      "background": "bg_6",
+      "model": ""
     }
 
   ]
