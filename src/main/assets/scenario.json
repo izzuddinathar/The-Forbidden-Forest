@@ -252,6 +252,24 @@
       ],
       "background": "bg_9",
       "model": ""
+    },
+    {
+      "page": 15,
+      "question": "The sun is down, rain start pouring, freezing cold, if you don’t find a shelter it will be a problem",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Build a tent",
+          "pageNext": 16
+        },
+        {
+          "index": 1,
+          "name": "Keep walking because you are strong",
+          "pageNext": 17
+        }
+      ],
+      "background": "bg_10",
+      "model": ""
     }
 
   ]
