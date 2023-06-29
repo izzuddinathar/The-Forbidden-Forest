@@ -342,6 +342,24 @@
       ],
       "background": "bg_6",
       "model": ""
+    },
+    {
+      "page": 20,
+      "question": "As you collecting the dry woods, you hear someone screaming “HELP ME SOMEBODY!”, it seems that someone need help",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Help them",
+          "pageNext": 24
+        },
+        {
+          "index": 1,
+          "name": "Ignore and go back to tent",
+          "pageNext": 25
+        }
+      ],
+      "background": "bg_13",
+      "model": ""
     }
 
   ]
