@@ -1,3 +1,121 @@
 <resources>
-    <string name="app_name">TheForbiddenForest</string>
+    <string name="app_name">The Forbidden Forest</string>
+    <string name="question">Question</string>
+    <string name="choice">Choice</string>
+
+    <!--    Android 1   -->
+    <string name="my_visual_novel">The Forbidden Forest</string>
+    <string name="start">Start</string>
+
+    <!--    Android 2   -->
+    <string name="hello">What is your name?</string>
+    <string name="input_placeholder">Input your name\.\.\.</string>
+    <string name="accept">Input</string>
+    <string name="model_1_desc">Hunter</string>
+
+    <!--    Android 3   -->
+    <string name="intro">Your name is %1$s!, hiking in a mexico forest, you realize that it is going dark and you see an abandoned cabin, what would you do?</string>
+    <string name="cabin">Go to the abandoned cabin</string>
+    <string name="walking">Keep walking</string>
+
+    <!--    Android 4   -->
+    <string name="p4_question">It’s to clean to be abandoned, maybe this is somebody house, but the sun is going down soon</string>
+    <string name="p4_choice_1">Enter the cabin</string>
+    <string name="p4_choice_2">Go back and respect the owner</string>
+
+    <!--    Android 5   -->
+    <string name="p5_question">What are you doing here?, it is going dark and its dangerous outside, come to my cabin for a night?</string>
+    <string name="p5_choice_1">Accept the offer</string>
+    <string name="p5_choice_2">Decline the offer</string>
+
+    <!--    Android 6   -->
+    <string name="p6_question">Okay do what you wish but i must warn you that don\'t go around when there is no sun, see you around</string>
+    <string name="p6_choice_1">Okay, see you around</string>
+
+    <!--    Android 7   -->
+    <string name="p7_question">“ I’m going to go outside to check the rabbit trap, there is some hot soup on the stove feel free to eat it, i’ll be going now”</string>
+    <string name="p7_choice_1">Eat the food</string>
+    <string name="p7_choice_2">Investigate the cabin</string>
+
+    <!--    Android 8   -->
+    <string name="p8_question">YOU ARE POISONED\nThe soup has been contaminated by poison you should have seen it coming</string>
+
+    <!--    Android 9   -->
+    <string name="p9_question">As you check the cabins room,  you stumble to a paper that says“%1$s! is the next prey”. wait that\'s my name i need to escape from this cabin</string>
+    <string name="p9_choice_1">Escape through the door</string>
+    <string name="p9_choice_2">Escape through the window</string>
+
+    <!--    Android 10  -->
+    <string name="p10_question">YOU ARE CAPTURED\nThe hunter captured you infront of the door and you are going to be his next meal</string>
+
+    <!--    Android 11  -->
+    <string name="p11_question">YOU ARE ALIVE\nYou successfully escaped from the hunter and immediately exit the forest</string>
+
+    <!--    Android 12  -->
+    <string name="p12_question">As you continue walking, you see a note hanging onto the tree, what will you do?</string>
+    <string name="p12_choice_1">Read the note</string>
+    <string name="p12_choice_2">Keep walking</string>
+
+
+    <!--    Android 13  -->
+    <string name="p13_question">You take the note, it says “ DO NOT TRUST THE VOICE STAY INSIDE %1$s!“ , it rattle you a little bit, you are not that far enough to go back before the sunset</string>
+    <string name="p13_choice_1">Cancel your hiking and go back to home</string>
+    <string name="p13_choice_2">Keep on walking</string>
+
+    <!--    Android 14  -->
+    <string name="p14_question">YOU ARE ALIVE\nit seems that the mountain is occupied by skin walker</string>
+
+    <!--    Android 15  -->
+    <string name="p15_question">The sun is down, rain start pouring, freezing cold, if you don’t find a shelter it will be a problem</string>
+    <string name="p15_choice_1">Build a tent</string>
+    <string name="p15_choice_2">Keep walking because you are strong</string>
+
+    <!--    Android 16  -->
+    <string name="p16_question">You stuck in your tent and it will take long for the rain to ease up, you are bored needing to do something to burn time, what wil you do?</string>
+    <string name="p16_choice_1">Read a book</string>
+    <string name="p16_choice_2">Play your phone</string>
+
+    <!--    Android 17  -->
+    <string name="p17_question">YOU ARE DEAD\nCause of death : Hypothermia\nyou failed to find a shelter on time</string>
+
+    <!--    Android 18a  -->
+    <string name="p18a_question">The rain has stop, you notice that your hungry, you need to build outside stove that require some woods, what will you do?</string>
+    <string name="p18a_choice_1">Gather some wood</string>
+    <string name="p18a_choice_2">Sleep it off</string>
+
+    <!--    Android 18b  -->
+    <string name="p18b_question">The rain has stop, you notice that your hungry, you need to build outside stove that require some woods, what will you do?</string>
+    <string name="p18b_choice_1">Gather some wood</string>
+    <string name="p18b_choice_2">Sleep it off</string>
+
+    <!--    Android 19  -->
+    <string name="p19_question">The woods nearby is still wet so you have to selectively choose the woods, it is dark but fortunately your phone have a flashlight so it is not a problem</string>
+    <string name="p19_choice_1">Go search dry woods</string>
+
+    <!--    Android 20  -->
+    <string name="p20_question">As you collecting the dry woods, you hear someone screaming “HELP ME SOMEBODY!”, it seems that someone need help</string>
+    <string name="p20_choice_1">Help them</string>
+    <string name="p20_choice_2">Ignore and go back to tent</string>
+
+    <!--    Android 21  -->
+    <string name="p21_question">The woods nearby is still wet so you have to selectively choose dry woods, it is dark and unfortunately your phone died, if you proceed further it will be danger</string>
+    <string name="p21_choice_1">Go search dry woods</string>
+    <string name="p21_choice_2">Go back to tent</string>
+
+    <!--    Android 22  -->
+    <string name="p22_question">YOU ARE TRAPPED\nYou can’t see the trap laying around on the ground and you accidentally step to it</string>
+
+    <!--    Android 23  -->
+    <string name="p23_question">You wake up in the middle of the night, you hear someone yelling outside, “ HELP ME SOMEBODY!” , it seems that someone need help</string>
+    <string name="p23_choice_1">Go outside and help</string>
+    <string name="p23_choice_2">Try to sleep again</string>
+
+    <!--    Android 24  -->
+    <string name="p24_question">YOU ARE DEAD\nthe skinwalker fools you into believing somebody need help and you re its next prey</string>
+
+    <!--    Android 25  -->
+    <string name="p25_question">YOU ARE ALIVE\nit appears that the one screaming is a creature that mimic it last meals</string>
+
+    <!--    ETC  -->
+    <string name="repeat">Try Again</string>
 </resources>
