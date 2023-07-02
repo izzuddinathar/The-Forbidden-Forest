@@ -396,6 +396,78 @@
       ],
       "background": "bg_14",
       "model": ""
+    },
+    {
+      "page": 23,
+      "question": "You wake up in the middle of the night, you hear someone yelling outside, “ HELP ME SOMEBODY!” , it seems that someone need help",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Go outside and help them",
+          "pageNext": 24
+        },
+        {
+          "index": 1,
+          "name": "Try to sleep again",
+          "pageNext": 25
+        }
+      ],
+      "background": "bg_13",
+      "model": ""
+    },
+    {
+      "page": 24,
+      "question": "YOU ARE DEAD\nthe skinwalker fools you into believing somebody need help and you re its next prey",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Try Again?",
+          "pageNext": 1
+        },
+        {
+          "index": 1,
+          "name": "",
+          "pageNext": 1
+        }
+      ],
+      "background": "bg_15",
+      "model": ""
+    },
+    {
+      "page": 25,
+      "question": "YOU ARE ALIVE\nit appears that the one screaming is a creature that mimic it last meals",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Try Again?",
+          "pageNext": 1
+        },
+        {
+          "index": 1,
+          "name": "",
+          "pageNext": 1
+        }
+      ],
+      "background": "bg_13",
+      "model": ""
+    },
+    {
+      "page": 81,
+      "question": "The rain has stop, you notice that your hungry, you need to build outside stove that require some woods, what will you do?",
+      "choice": [
+        {
+          "index": 0,
+          "name": "Gather some wood",
+          "pageNext": 21
+        },
+        {
+          "index": 1,
+          "name": "Sleep it off",
+          "pageNext": 23
+        }
+      ],
+      "background": "bg_13",
+      "model": ""
     }
 
   ]
